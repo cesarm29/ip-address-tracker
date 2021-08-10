@@ -1,0 +1,52 @@
+@import "../../../styles.scss";
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+
+  @media (max-width: 750px) {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.details-container {
+  padding: 0.5rem;
+  @media (max-width: 750px) {
+    padding: 0;
+  }
+}
+
+p {
+  margin: 0.7rem 0 0.5rem 0;
+  font-size: 1.3rem;
+  word-break: break-all;
+
+  @media (max-width: 750px) {
+    font-size: 1.1rem;
+  }
+}
+
+.card {
+  margin: 0 auto;
+  padding: 2rem;
+  width: 80%;
+  max-width: 1150px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  @media (max-width: 750px) {
+    width: 75%;
+  }
+}
+
+.v-line {
+  border-left: 1px solid $lightGray;
+}
+
+h4 {
+  margin: 0;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  color: $gray;
+}

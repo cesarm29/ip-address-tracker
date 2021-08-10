@@ -1,0 +1,15 @@
+app-header {
+  z-index: 2;
+}
+
+app-map {
+  z-index: 1;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+  
